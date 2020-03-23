@@ -10,4 +10,8 @@ $ ./darknet detector train /home/jeff/DARKNET/dataset/darknet.data /home/jeff/DA
 $ ./darknet detector test /home/jeff/DARKNET/dataset/darknet.data /home/jeff/DARKNET/dataset/darknet-yolov3.cfg /home/jeff/DARKNET/dataset/darknet-yolov3_1000.weights /home/jeff/DARKNET/dataset/001.png
 $ ./darknet detector train /home/jeff/DARKNET/dataset/darknet.data /home/jeff/DARKNET/dataset/darknet-yolov3.cfg /home/jeff/DARKNET/dataset/darknet-yolov3.backup > /home/jeff/DARKNET/dataset/train.log
 ```
-
+## Jupyter
+```
+import sys
+!{sys.executable} -m pip install numpy
+```
