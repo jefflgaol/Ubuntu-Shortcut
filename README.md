@@ -12,5 +12,13 @@ $ ./darknet detector train /home/jeff/DARKNET/dataset/darknet.data /home/jeff/DA
 ```
 ## Jupyter
 ```
-sudo python3 -m pip install -U jupyter ipython
+$ sudo python3 -m pip install -U jupyter ipython
+```
+## Github
+```
+$ git log --oneline
+
+https://www.internalpointers.com/post/squash-commits-into-one-git
+$ git rebase --interactive 6394dc
+Change pick to s, except the first one 
 ```
