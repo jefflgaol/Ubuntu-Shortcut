@@ -20,5 +20,6 @@ $ git log --oneline
 
 https://www.internalpointers.com/post/squash-commits-into-one-git
 $ git rebase --interactive 6394dc
-Change pick to s, except the first one 
+Change pick to s, except the first one
+$ git push origin HEAD -f
 ```
