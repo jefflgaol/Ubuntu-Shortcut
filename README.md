@@ -12,6 +12,5 @@ $ ./darknet detector train /home/jeff/DARKNET/dataset/darknet.data /home/jeff/DA
 ```
 ## Jupyter
 ```
-import sys
-!{sys.executable} -m pip install numpy
+sudo python3 -m pip install -U jupyter ipython
 ```
