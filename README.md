@@ -11,7 +11,10 @@ Remove permission
 ```
 $ sudo chmod o+rx <filename>
 ```
-
+Increase permission of hard-drive
+```
+$ sudo chown -R username:username /media/username/nameofdrive
+```
 ## Darknet
 Train
 ```
