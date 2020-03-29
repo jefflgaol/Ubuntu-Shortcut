@@ -31,6 +31,10 @@ NVIDIA activity
 $ sudo pip3 install gpustat
 $ watch -c gpustat -cp --color
 ```
+or
+```
+$ watch -c nvidia-smi
+```
 ## Darknet
 Train
 ```
