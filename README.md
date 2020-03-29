@@ -15,6 +15,12 @@ Increase permission of hard-drive
 ```
 $ sudo chown -R username:username /media/username/nameofdrive
 ```
+Install nVidia driver
+```
+$ sudo add-apt-repository ppa:graphics-drivers/ppa
+$ sudo apt update
+$ sudo apt install nvidia-410
+```
 ## Darknet
 Train
 ```
