@@ -26,6 +26,11 @@ Symlink CUDA
 ```
 $ sudo ln -s /usr/local/cuda-10.0 /usr/local/cuda
 ```
+NVIDIA activity
+```
+$ sudo pip3 install gpustat
+$ watch -c gpustat -cp --color
+```
 ## Darknet
 Train
 ```
