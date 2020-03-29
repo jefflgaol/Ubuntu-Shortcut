@@ -19,7 +19,7 @@ Install nVidia driver
 ```
 $ sudo add-apt-repository ppa:graphics-drivers/ppa
 $ sudo apt update
-$ sudo apt install nvidia-410
+$ sudo apt install nvidia-driver-440
 ```
 ## Darknet
 Train
