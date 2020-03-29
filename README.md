@@ -21,6 +21,10 @@ $ sudo add-apt-repository ppa:graphics-drivers/ppa
 $ sudo apt update
 $ sudo apt install nvidia-driver-440
 ```
+Symlink CUDA
+```
+$ sudo ln -s /usr/local/cuda-10.0 /usr/local/cuda
+```
 ## Darknet
 Train
 ```
