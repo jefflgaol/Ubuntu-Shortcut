@@ -6,6 +6,7 @@ $ dpkg -l | grep nvidia
 Remove package
 ```
 $ sudo apt-get purge 'nvidia.*'
+$ sudo apt-get purge nvidia-*
 ```
 Remove permission
 ```
