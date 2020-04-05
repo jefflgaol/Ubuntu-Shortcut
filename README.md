@@ -35,6 +35,10 @@ or
 ```
 $ watch -c nvidia-smi
 ```
+Synaptic
+```
+$ synaptic-pkexec
+```
 ## Darknet
 Train
 ```
