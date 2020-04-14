@@ -69,3 +69,55 @@ $ git rebase --interactive 6394dc
 Change pick to s, except the first one
 $ git push origin HEAD -f
 ```
+## Anaconda
+View environment list
+```
+$ conda env list
+```
+Create environment based on .yml
+```
+$ conda env create -f environment.yml
+```
+## Docker
+List active container
+```
+$ docker ps
+```
+List all container
+```
+$ docker ps -a-
+```
+Start container
+```
+$ docker start <name>
+```
+Stop container
+```
+$ docker stop <name>
+```
+Remove container
+```
+$ docker rm <name>
+```
+Remove all stopped container, images, and unused networks
+```
+$ docker system prune
+```
+Suicide
+```
+$ docker system prune -a
+```
+Commit to image
+```
+$ docker commit -m "<Message>" -a "<Author Name>" <container-id> <repository/image_name>
+$ docker commit -m "added Node.js" -a "sammy" d9b100f2f636 sammy/ubuntu-nodejs 
+```
+Rename image
+```
+$ docker tag <container-id> <repository>/<image_name>
+$ docker tag d583c3ac45fd myname/server:latest
+```
+Run bash
+```
+$ docker exec -it <container-id> bash
+```
