@@ -82,6 +82,12 @@ Create environment based on .yml
 ```
 $ conda env create -f environment.yml
 ```
+Export to .yml
+```
+$ conda update ---all
+$ conda export --no-builds > env.yml
+$ conda env create -f env.yml
+```
 ## Docker
 List active container
 ```
