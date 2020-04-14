@@ -88,6 +88,10 @@ $ conda update ---all
 $ conda env export --no-builds > env.yml
 $ conda env create -f env.yml
 ```
+Uninstall conda
+```
+$ rm -rf ~/anaconda3
+```
 ## Docker
 List active container
 ```
