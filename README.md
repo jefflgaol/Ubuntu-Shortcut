@@ -66,9 +66,8 @@ View log
 ```
 $ git log --oneline
 ```
-Rebase
+Rebase (https://www.internalpointers.com/post/squash-commits-into-one-git)
 ```
-https://www.internalpointers.com/post/squash-commits-into-one-git
 $ git rebase --interactive 6394dc
 Change pick to s, except the first one
 $ git push origin HEAD -f
@@ -96,6 +95,11 @@ $ conda install jpeg=9b
 Uninstall conda
 ```
 $ rm -rf ~/anaconda3
+```
+Add channel conda-forge
+```
+$ conda config --add channels conda-forge
+$ conda config --set channel_priority strict
 ```
 ## Docker
 List active container
