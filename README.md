@@ -65,6 +65,7 @@ $ ./darknet detector train /home/jeff/DARKNET/dataset/darknet.data /home/jeff/DA
 Install jupyter
 ```
 $ sudo python3 -m pip install -U jupyter ipython
+$ sudo reboot
 ```
 ## Github
 View log
