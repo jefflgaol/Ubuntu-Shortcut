@@ -20,6 +20,11 @@ Increase permission of folder
 ```
 $ sudo chown -R 1000:1000 /home/username/folder
 ```
+Synaptic
+```
+$ synaptic-pkexec
+```
+## NVIDIA
 Install nVidia driver
 ```
 $ sudo add-apt-repository ppa:graphics-drivers/ppa
@@ -39,9 +44,9 @@ or
 ```
 $ watch -c nvidia-smi
 ```
-Synaptic
+Check CUDNN version
 ```
-$ synaptic-pkexec
+$ cat /usr/include/cudnn.h | grep CUDNN_MAJOR -A 2
 ```
 ## Darknet
 Train
