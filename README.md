@@ -16,6 +16,10 @@ Increase permission of hard-drive
 ```
 $ sudo chown -R username:username /media/username/nameofdrive
 ```
+Increase permission of folder
+```
+$ sudo chown -R 1000:1000 /home/username/folder
+```
 Install nVidia driver
 ```
 $ sudo add-apt-repository ppa:graphics-drivers/ppa
