@@ -101,6 +101,10 @@ Add channel conda-forge
 $ conda config --add channels conda-forge
 $ conda config --set channel_priority strict
 ```
+Install older Python version
+```
+$ conda install python=3.6
+```
 ## Docker
 List active container
 ```
