@@ -88,6 +88,11 @@ $ conda update ---all
 $ conda env export --no-builds > env.yml
 $ conda env create -f env.yml
 ```
+Instal conda package
+```
+$ conda install <package-name>
+$ conda install jpeg=9b
+```
 Uninstall conda
 ```
 $ rm -rf ~/anaconda3
