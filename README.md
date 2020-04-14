@@ -101,6 +101,10 @@ Add channel conda-forge
 $ conda config --add channels conda-forge
 $ conda config --set channel_priority strict
 ```
+Install older Anaconda
+```
+$ conda install conda=4.6.14
+```
 Install older Python version
 ```
 $ conda install python=3.6
