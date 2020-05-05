@@ -71,6 +71,10 @@ Install jupyter
 $ sudo python3 -m pip install -U jupyter ipython
 $ sudo reboot
 ```
+Uninstall jupyter
+```
+$ python3 -m pip uninstall -y jupyter jupyter_core jupyter-client jupyter-console notebook qtconsole nbconvert nbformat ipython
+```
 ## Github
 View log
 ```
@@ -122,7 +126,7 @@ $ conda install python=3.6
 ## COCO
 Install pycocotools
 ```
-sudo python3 -m pip install git+https://github.com/philferriere/cocoapi.git#subdirectory=PythonAPI
+$ sudo python3 -m pip install git+https://github.com/philferriere/cocoapi.git#subdirectory=PythonAPI
 ```
 ## Docker
 List active container
