@@ -119,6 +119,11 @@ Install older Python version
 ```
 $ conda install python=3.6
 ```
+## COCO
+Install pycocotools
+```
+sudo python3 -m pip install git+https://github.com/philferriere/cocoapi.git#subdirectory=PythonAPI
+```
 ## Docker
 List active container
 ```
