@@ -24,6 +24,10 @@ Synaptic
 ```
 $ synaptic-pkexec
 ```
+Change alias python to python3
+```
+alias python=python3
+```
 ## NVIDIA
 Install nVidia driver
 ```
