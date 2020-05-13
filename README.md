@@ -86,6 +86,14 @@ $ git rebase --interactive 6394dc
 Change pick to s, except the first one
 $ git push origin HEAD -f
 ```
+Checkout to a new branch
+```
+$ git checkout -b <branch-name>
+```
+Push to a branch
+```
+$ git push -u origin <branch-name>
+```
 ## Anaconda
 View environment list
 ```
