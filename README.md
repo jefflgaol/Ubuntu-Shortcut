@@ -28,6 +28,10 @@ Change alias python to python3
 ```
 alias python=python3
 ```
+Find package version
+```
+$ apt-cache madison <package-name>
+```
 ## NVIDIA
 Install nVidia driver
 ```
