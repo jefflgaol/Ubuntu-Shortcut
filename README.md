@@ -32,9 +32,13 @@ Change alias python to python3 (bashrc)
 ```
 alias python=python3
 ```
-7zip
+7zip zip and split
 ```
 $ 7z -v100m a my_zip.7z my_folder/
+```
+7zip extract (not flattened)
+```
+$ 7z x my_zip.7z.001
 ```
 ## NVIDIA
 Install nVidia driver
