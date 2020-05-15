@@ -3,6 +3,10 @@ List package
 ```
 $ dpkg -l | grep nvidia
 ```
+Find package version
+```
+$ apt-cache madison <package-name>
+```
 Remove package
 ```
 $ sudo apt-get purge 'nvidia.*'
@@ -24,13 +28,13 @@ Synaptic
 ```
 $ synaptic-pkexec
 ```
-Change alias python to python3
+Change alias python to python3 (bashrc)
 ```
 alias python=python3
 ```
-Find package version
+7zip
 ```
-$ apt-cache madison <package-name>
+$ 7z -v100m a my_zip.7z my_folder/
 ```
 ## NVIDIA
 Install nVidia driver
