@@ -12,6 +12,11 @@ Remove package
 $ sudo apt-get purge 'nvidia.*'
 $ sudo apt-get purge nvidia-*
 ```
+Remove package on certain date
+https://askubuntu.com/questions/548683/how-can-one-remove-all-packages-installed-after-a-certain-date-time
+```
+$ grep "2020-12-09.*.install " /var/log/dpkg.log | awk '{ print $4 }' | cut -d: -f1 | xargs sudo apt-get --yes purge
+```
 Remove permission
 ```
 $ sudo chmod o+rx <filename>
