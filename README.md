@@ -33,10 +33,6 @@ Increase permission of folder
 ```
 $ sudo chown -R 1000:1000 /home/username/folder
 ```
-Synaptic
-```
-$ synaptic-pkexec
-```
 Change alias python to python3 (bashrc)
 ```
 alias python=python3
@@ -48,6 +44,14 @@ $ 7z -v100m a my_zip.7z my_folder/
 7zip extract (not flattened)
 ```
 $ 7z x my_zip.7z.001
+```
+Change to English language
+```
+$ export LC_ALL=C 
+```
+Keyboard or mouse malfunction
+```
+$ sudo apt-get install xserver-xorg-input-all
 ```
 ## NVIDIA
 Install nVidia driver
