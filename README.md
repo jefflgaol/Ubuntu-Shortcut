@@ -3,6 +3,10 @@ List package
 ```
 $ dpkg -l | grep nvidia
 ```
+Modify percentage critical
+```
+$ sudo gedit /etc/UPower/UPower.conf
+```
 Find package version
 ```
 $ apt-cache madison <package-name>
