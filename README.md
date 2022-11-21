@@ -115,9 +115,17 @@ Checkout to a new branch
 ```
 $ git checkout -b <branch-name>
 ```
+Use a checkout
+```
+$ git checkout <commit-id-sha> 
+```
 Push to a branch
 ```
 $ git push -u origin <branch-name>
+```
+Clone recursive
+```
+$ git clone --recursive ssh://XXXXXXXXXXXXXXXX
 ```
 ## Anaconda
 View environment list
